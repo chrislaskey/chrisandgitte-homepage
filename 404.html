@@ -3,4 +3,16 @@ layout: default
 permalink: /404.html
 title: Page Not Found
 ---
+{% include en-header.html %}
+
+<div class="wrapper wrapper_nav">
+  <div class="nav_container container">
+    <div class="row">
+      <div class="span10 offset1">
+        {% include en-navigation.html %}
+      </div>
+    </div>
+  </div>
+</div>
+
 <p>The page you requested <strong>{{ uri }}</strong> could not be found.</p>
