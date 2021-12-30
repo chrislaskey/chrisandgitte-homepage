@@ -1,0 +1,564 @@
+@font-face {
+	 font-family: 'Caecilia Roman';
+	 src: url("../fonts/CaeciliaLTStd-Roman.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/CaeciliaLTStd-Roman.woff") format('woff'), url("../fonts/CaeciliaLTStd-Roman.ttf") format('truetype'), url("../fonts/CaeciliaLTStd-Roman.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Caecilia Italic';
+	 src: url("../fonts/CaeciliaLTStd-Italic.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/CaeciliaLTStd-Italic.woff") format('woff'), url("../fonts/CaeciliaLTStd-Italic.ttf") format('truetype'), url("../fonts/CaeciliaLTStd-Italic.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Caecilia Light';
+	 src: url("../fonts/CaeciliaLTStd-Light.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/CaeciliaLTStd-Light.woff") format('woff'), url("../fonts/CaeciliaLTStd-Light.ttf") format('truetype'), url("../fonts/CaeciliaLTStd-Light.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Caecilia Light Italic';
+	 src: url("../fonts/CaeciliaLTStd-LightItalic.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/CaeciliaLTStd-LightItalic.woff") format('woff'), url("../fonts/CaeciliaLTStd-LightItalic.ttf") format('truetype'), url("../fonts/CaeciliaLTStd-LightItalic.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Caecilia Bold';
+	 src: url("../fonts/CaeciliaLTStd-Bold.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/CaeciliaLTStd-Bold.woff") format('woff'), url("../fonts/CaeciliaLTStd-Bold.ttf") format('truetype'), url("../fonts/CaeciliaLTStd-Bold.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Museo Sans Ultra Light';
+	 src: url("../fonts/MuseoSans_100.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/MuseoSans_100.woff") format('woff'), url("../fonts/MuseoSans_100.ttf") format('truetype'), url("../fonts/MuseoSans_100.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Museo Sans Light';
+	 src: url("../fonts/MuseoSans_300.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/MuseoSans_300.woff") format('woff'), url("../fonts/MuseoSans_300.ttf") format('truetype'), url("../fonts/MuseoSans_300.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Museo Sans Book';
+	 src: url("../fonts/MuseoSans_500.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/MuseoSans_500.woff") format('woff'), url("../fonts/MuseoSans_500.ttf") format('truetype'), url("../fonts/MuseoSans_500.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Museo Sans Bold';
+	 src: url("../fonts/MuseoSans_700.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/MuseoSans_700.woff") format('woff'), url("../fonts/MuseoSans_700.ttf") format('truetype'), url("../fonts/MuseoSans_700.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ @font-face {
+	 font-family: 'Museo Sans Heavy';
+	 src: url("../fonts/MuseoSans_900.eot");
+	 src: local('Ã¢ËœÂº'), url("../fonts/MuseoSans_900.woff") format('woff'), url("../fonts/MuseoSans_900.ttf") format('truetype'), url("../fonts/MuseoSans_900.svg") format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+ html {
+	 height: 100%;
+	 margin: 0px;
+	 padding: 0px;
+	 width: 100%;
+}
+ body {
+	 background: #f5f4f1 url('../images/structure/bg.png') 0px 0px repeat;
+	 color: #7c7666;
+	 font: normal 18px/30px "Caecilia Light", Georgia, Times, serif;
+	 height: 100%;
+	 margin: 0px;
+	 padding: 0px;
+	 width: 100%;
+}
+ ::selection {
+	 background: #89c306;
+	 color: #fff;
+}
+ ::-moz-selection {
+	 background: #89c306;
+	 color: #fff;
+}
+ img::selection {
+	 background: transparent;
+}
+ img::-moz-selection {
+	 background: transparent;
+}
+ a {
+	 color: #6d9b05;
+	 text-decoration: none;
+}
+ a:hover {
+	 color: #4a6a03;
+	 text-decoration: none;
+}
+ a:active, a:focus {
+	 border: 0px;
+	 outline: 0px;
+}
+ a img {
+	 border: none;
+}
+ b, strong {
+	 color: #638ab1;
+	 font: normal 18px/30px "Caecilia Light", Georgia, Times, serif;
+}
+ h1, h2, h3, h4, h5 {
+	 color: #7c7666;
+	 font-family: "Caecilia Roman", Georgia, Times, serif;
+	 margin: 1em 0px 0.5em 0px;
+	 text-rendering: optimizeLegibility;
+}
+ h1 {
+	 font: normal 32px/32px "Caecilia Light", Georgia, Times, serif;
+	 margin-top: 0.4em;
+}
+ h2 {
+	 font: normal 22px/30px "Caecilia Roman", Georgia, Times, serif;
+	 margin: 1.5em 0px 1em 0px;
+	 color: #638ab1;
+}
+ h3 {
+	 color: #6e695a;
+	 font: normal 14px/30px "Museo Sans Bold", Helvetica, Arial, sans-serif;
+	 text-transform: uppercase;
+}
+ h4 {
+	 font: normal 18px/30px "Caecilia Roman", Georgia, Times, serif;
+}
+ img {
+	 border: 0px;
+	 display: block;
+	 margin: 0px;
+	 padding: 0px;
+}
+ p {
+	 color: #7c7666;
+	 font: normal 18px/30px "Caecilia Light", Georgia, Times, serif;
+	 margin: 0px 0px 16px 0px;
+}
+ ul {
+	 margin: 1em 0px;
+	 padding: 0px 0px 0px 0px;
+}
+ blockquote {
+	 border: none;
+	 color: #7c7666;
+	 font: normal 18px/27px "Caecilia Light", Georgia, Times, serif;
+	 margin: 0px 0px 1em 0px;
+	 background: rgba(96,75,23,0.05);
+	 display: block;
+	 padding: 20px 30px;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+}
+ .hidden {
+	 display: none;
+}
+ .row {
+	 margin: 0px 0px;
+}
+ .wrapper {
+	 background: rgba(66,55,13,0.05);
+	 width: 100%;
+	 zoom: 1;
+	 -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+	 -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+	 box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+ .wrapper:before, .wrapper:after {
+	 display: table;
+	 content: "";
+	 zoom: 1;
+	 *display: inline;
+}
+ .wrapper:after {
+	 clear: both;
+}
+ .wrapper_header {
+	 -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+	 -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+	 box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+ .header {
+	 margin: 40px auto 0px auto;
+}
+ .wrapper_nav {
+	 -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+	 -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+	 box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+ .nav_container {
+	 margin: 20px auto 20px auto;
+}
+ .wrapper_banner {
+	 background: none;
+}
+ .banner {
+	 color: #7c7666;
+	 font: normal 24px/36px "Caecilia Light", Georgia, Times, serif;
+	 height: auto !important;
+	 margin: 50px auto !important;
+}
+ .banner img {
+	 float: left;
+	 height: auto;
+	 margin: -12px 70px -26px -14px;
+	 max-width: 100%;
+}
+ .banner p {
+	 margin: 30px 0px 0px 0px;
+	 font: normal 23px/40px "Caecilia Light", Georgia, Times, serif;
+}
+ .wrapper_main {
+	 background: none;
+}
+ .main {
+	 margin: 20px auto 20px auto;
+}
+ .wrapper_date_banner {
+	 background: url('../images/structure/bg-map.jpg') top right repeat;
+	 border-bottom: 1px solid #d5d3c6;
+}
+ .date_banner {
+	 height: auto !important;
+	 margin: 100px auto 100px auto !important;
+	 margin: 80px auto 80px auto !important;
+	 text-align: center;
+}
+ .wrapper_footer {
+	 background: rgba(66,55,13,0);
+}
+ .footer {
+	 display: none;
+	 margin: 30px auto 25px auto;
+}
+ a.logo {
+	 background: url('../images/structure/birds-logo.png') 0px 0px no-repeat;
+	 color: #8b8678;
+	 display: block;
+	 float: left;
+	 font: 30px/30px "Caecilia Roman", Georgia, Times, serif;
+	 height: 65px;
+	 margin: 0px 0px 0px -30px;
+	 padding: 5px 0px 0px 160px;
+	 text-align: left;
+	 width: 300px;
+}
+ a.logo:hover {
+	 text-decoration: none;
+}
+ a.logo span.subheading {
+	 font: 24px/30px "Caecilia Light Italic", Georgia, Times, serif;
+}
+ a.language {
+	 background: url('../images/structure/language.png') 0px 0px no-repeat;
+	 display: block;
+	 float: right;
+	 height: 40px;
+	 margin: 10px 0px 0px 0px;
+	 text-indent: -5000px;
+	 opacity: 0.8;
+	 width: 135px;
+}
+ div.footer a.language {
+	 display: none;
+	 float: none;
+	 margin: 0px auto;
+}
+ a.language_be {
+	 background-position: 0px 0px;
+}
+ a.language_be:hover {
+	 background-position: 0px -40px;
+	 opacity: 1.0;
+}
+ a.language_en {
+	 background-position: 0px -80px;
+}
+ a.language_en:hover {
+	 background-position: 0px -120px;
+	 opacity: 1.0;
+}
+ ul.nav {
+	 display: block;
+	 float: left;
+	 font: 17px/20px "Museo Sans Light", Helvetica, Arial, sans-serif;
+	 list-style: none;
+	 margin: 0px 0px 0px 0px;
+	 width: 100%;
+}
+ ul.nav li {
+	 display: block;
+	 float: left;
+	 margin: 0px;
+	 padding: 0px 0px 0px 0px;
+}
+ ul.nav li a {
+	 color: #8b8678;
+	 display: block;
+	 margin: 3px 10px 3px 0px;
+	 padding: 9px;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+	 background: rgba(66,55,13,0.08);
+}
+ ul.nav li a:hover {
+	 text-decoration: none;
+}
+ div.content img {
+	 max-width: 100%;
+}
+ div.content ul {
+	 color: #7c7666;
+	 margin: 1em 0px 1em 25px;
+}
+ div.content ul li {
+	 padding: 2px 0px;
+}
+ div.content .alignleft {
+	 display: block;
+	 float: left;
+	 margin: 4px 20px 14px 0px;
+}
+ div.content .alignright {
+	 display: block;
+	 float: right;
+	 margin: 4px 0px 14px 20px;
+}
+ table {
+	 color: #7c7666;
+	 margin: 1.5em 0px;
+	 border: 1px solid #ccc;
+	 padding: 0px;
+}
+ table tr {
+	 border-bottom: 2px solid #ccc;
+	 font: 16px/20px "Museo Sans Light", Helvetica, Arial, sans-serif;
+}
+ table tr td {
+	 padding: 8px 16px;
+	 vertical-align: top;
+}
+ table.data {
+	 border: none;
+	 border-top: 1px dashed #bdb399;
+	 width: 100%;
+}
+ table.data td {
+	 font: 17px/20px "Museo Sans Light", Helvetica, Arial, sans-serif;
+}
+ table.data td {
+	 padding: 12px 0px;
+	 border-bottom: 1px dashed #bdb399;
+}
+ table.data tr:hover td {
+	 background: #e6e0cf;
+}
+ table.data td:last-child {
+	 text-align: right;
+	 font: 16px/20px "Museo Sans Light", Helvetica, Arial, sans-serif;
+}
+ .google_map {
+	 border: 5px solid #dcd7cc;
+	 font: normal 15px/20px Georgia, Times, serif;
+	 height: 400px;
+	 margin: 26px 0px 30px 0px;
+	 width: 99%;
+}
+ .google_map img {
+	 max-width: none !important;
+}
+ .photo-album {
+	 margin-left: -10px;
+}
+ .photo-album .image {
+	 display: block;
+	 margin-bottom: 20px;
+}
+ .photo-album .image a {
+	 background: #cec8bd;
+	 border: 1px solid #e5e2dc;
+	 display: inline-block;
+	 padding: 7px;
+	 -webkit-box-shadow: 0 1px 1px 2px rgba(185,180,175,0.3);
+	 -moz-box-shadow: 0 1px 1px 2px rgba(185,180,175,0.3);
+	 box-shadow: 0 1px 1px 2px rgba(185,180,175,0.3);
+}
+ .photo-album .image img {
+	 border: 1px solid #ddd8cf;
+	 display: block;
+	 margin: 0px auto;
+}
+ div.message {
+	 margin: 1em 0px;
+	 padding: 24px;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+}
+ div.message p {
+	 margin-bottom: 0.5em;
+}
+ div.message ul {
+	 margin-bottom: 0px;
+	 margin-top: 0.5em;
+}
+ div.message.error {
+	 background: rgba(255,0,0,0.12);
+	 border: 1px solid rgba(255,0,0,0.12);
+}
+ div.message.error p, div.message.error ul {
+	 color: #b94a48;
+}
+ div.message.success {
+	 background: rgba(150,200,50,0.12);
+	 border: 1px solid rgba(150,200,50,0.32);
+}
+ div.message.success p {
+	 color: #468847;
+	 margin: 0px;
+}
+ table.rsvp {
+	 padding: 0px 0px 8px 0px;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+}
+ table.rsvp label.question {
+	 color: #638ab1;
+	 display: block;
+	 font: normal 20px/24px "Caecilia Light", Georgia, Times, serif;
+	 margin: 0px;
+	 padding: 0.5em 0px 0px 0px;
+}
+ table.rsvp p {
+	 font: normal 17px/24px "Caecilia Light", Georgia, Times, serif;
+	 margin: 0.8em 0px 0px 0px;
+}
+ table.rsvp label.answer {
+	 margin: 0px;
+	 padding: 0px;
+}
+ table.rsvp input, table.rsvp textarea {
+	 border: none;
+	 color: #7c7666;
+	 font: normal 16px/24px "Museo Sans Light", Helvetica, Arial, sans-serif;
+	 margin: 0px 0px 0px 0px;
+	 background: rgba(96,75,23,0.1);
+	 display: block;
+	 padding: 8px 10px;
+	 -webkit-border-radius: 3px;
+	 -moz-border-radius: 3px;
+	 border-radius: 3px;
+}
+ table.rsvp input.radio {
+	 display: inline-block;
+	 margin: 0px 5px 0px 0px;
+}
+ table.rsvp label.radio.answer {
+	 display: inline-block;
+	 margin: 0px 15px 0px 0px;
+}
+ table.rsvp input.text {
+	 width: 30%;
+}
+ table.rsvp input.text.guests {
+	 width: 60%;
+}
+ table.rsvp textarea {
+	 height: 96px;
+	 width: 60%;
+}
+ table.rsvp input.submit {
+	 background: #638ab1;
+	 color: #fff;
+	 margin: 0px 0px 0px 0px;
+}
+ #dsq-global-toolbar {
+	 display: none !important;
+}
+ #dsq-account-dropdown a {
+	 font: normal 14px/30px "Caecilia Roman", Georgia, Times, serif !important;
+}
+ .dsq-avatar {
+	 display: none !important;
+}
+ .dsq-textarea-reply {
+	 margin-left: 0px !important;
+}
+ #dsq-sort-by select {
+	 display: none !important;
+}
+ .dsq-comment-header {
+	 padding-bottom: 5px !important;
+}
+ .dsq-comment-body {
+	 padding: 0px !important;
+}
+ .dsq-commenter-name {
+	 color: #6d9b05 !important;
+	 font: normal 18px/28px "Caecilia Light", Georgia, Times, serif !important;
+	 font-weight: normal !important;
+}
+ .dsq-comment-footer {
+	 color: #7c7666 !important;
+	 font: normal 12px/20px "Museo Sans Light", Helvetica, Arial, sans-serif !important;
+	 font-weight: normal !important;
+}
+ .dsq-comment-meta a, .dsq-comment-actions a {
+	 color: inherit;
+	 font: normal 12px/20px "Museo Sans Light", Helvetica, Arial, sans-serif !important;
+	 opacity: 1 !important;
+}
+ #dsq-pagination {
+	 display: none !important;
+}
+ .dsq-brlink {
+	 color: #7c7666 !important;
+	 font: normal 16px/30px "Caecilia Light", Georgia, Times, serif !important;
+}
+ .dsq-brlink .logo-disqus {
+	 color: #7c7666 !important;
+	 font-size: 13px;
+}
+ .body-en-save-the-date table, .body-en-save-the-date table tr, .body-en-save-the-date table td, .body-en-save-the-date a img {
+	 border: none;
+	 padding: 0px;
+	 margin: 0px;
+}
+ .date_banner {
+	 text-align: center;
+}
+ .date_banner .leader {
+	 color: #6e695a;
+	 padding: 0px 0px 30px 0px;
+}
+ .date_banner .date {
+	 color: #4e769d;
+	 font: normal 36px/38px "Caecilia Roman", Georgia, Times, serif;
+	 padding: 0px 0px 10px 0px;
+}
+ .date_banner .address {
+	 color: #638ab1;
+	 font: normal 14px/24px "Museo Sans Book", Helvetica, Arial, sans-serif;
+	 text-transform: uppercase;
+}
+ .footer a {
+	 color: #7c7666;
+}
